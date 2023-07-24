@@ -11,7 +11,8 @@ function RouteSwitch() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/gameboard" element={<Gameboard />} />
+        <Route path="/gameboard/:id" element={<Gameboard />} />
+        
       </Routes>
     </>
   );
